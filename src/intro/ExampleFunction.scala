@@ -1,6 +1,6 @@
 package intro
 
-object Example extends App {
+object ExampleFunction extends App {
   val adder: Int => Int = {
     _ + 1
   }
