@@ -1,6 +1,6 @@
 package `implicit`
 
-//import Conversions._
+import Conversions._
 
 object Example3 extends App {
 
