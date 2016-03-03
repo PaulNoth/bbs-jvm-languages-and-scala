@@ -9,6 +9,8 @@ class ExampleAllInOne {
   private var calls: Int = _
   private val array = Array(1, 2, 3)
 
+  private lazy val sum  = List(1, 2, 3).sum
+
   def coolMethod(): Unit = {
     println("hello")
   }
