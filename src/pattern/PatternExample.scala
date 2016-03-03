@@ -11,4 +11,12 @@ object PatternExample extends App {
     case List(_, _, _, 5, 10, _, _, _, 6, _*) => "yes"
   }
 
+  def describe(x: Any) = x match {
+    case 5 => "five"
+    case true => "truth"
+    case "hello" => "hi!"
+    case Nil => "the empty list"
+    case _ => "something else"
+  }
+
 }
