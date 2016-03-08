@@ -1,8 +1,5 @@
 package pattern
 
-import companion.Complex
-
-
 object PatternExample extends App {
   val list1 = List(1, 2, 3, 4, 5, 6, 7)
   val list2 = List(2, 6, 5, 4, 4, 5)

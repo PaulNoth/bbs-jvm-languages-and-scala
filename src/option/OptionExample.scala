@@ -9,4 +9,5 @@ object OptionExample extends App {
   println(nonexistingValue)
 
   existingValue.isDefined
+  existingValue.get
 }

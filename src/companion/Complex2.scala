@@ -26,13 +26,13 @@ object Complex2 {
 
     override def toString = {
       val sign = if(imag > 0) "+" else "-"
-      "(" + real + sign + imag + "i)" + Complex.id
+      "(" + real + sign + imag + "i)"
     }
   }
 
   private val id = 1
 
   def apply(real: Double, imag: Double) = {
-    new Complex2(real, imag)
+    //new Complex2(real, imag)
   }
 }
