@@ -2,9 +2,9 @@ package pattern
 
 object PatternExample2 extends App {
 
-  println(UnOp("-", UnOp("-", Number(5))))
-  println(simplifyAll(UnOp("-", UnOp("-", Number(5)))))
-  println(simplifyAll(UnOp("-",UnOp("-", UnOp("-", UnOp("-", UnOp("-", UnOp("-", Number(5)))))))))
+  println(UnOp("-", UnOp("-", Number(5))))    // --5
+  println(simplifyAll(UnOp("-", UnOp("-", Number(5))))) //--5
+  println(simplifyAll(UnOp("-",UnOp("-", UnOp("-", UnOp("-", UnOp("-", UnOp("-", Number(5))))))))) // ------5
 
 
   def simplifyAll(expr: Expr): Expr = {
