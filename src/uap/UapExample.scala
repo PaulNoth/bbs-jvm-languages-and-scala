@@ -4,6 +4,6 @@ object UapExample extends App {
 
   val uap = new UapClass
 
-  uap.myValue
+  println(uap.myValue)
 
 }

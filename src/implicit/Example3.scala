@@ -13,5 +13,5 @@ object Example3 extends App {
   2 + c1
   3 + c1
   4 + c1
-  6 + c1
+  println(6 + c1)
 }
