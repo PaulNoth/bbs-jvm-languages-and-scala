@@ -2,11 +2,11 @@ package companion
 
 trait Complex2 {
 
-  def + (that: Complex): Complex;
+  def + (that: Complex): Complex
 
-  def + (that: Int): Complex;
+  def + (that: Int): Complex
 
-  def + (that: Double): Complex;
+  def + (that: Double): Complex
 }
 
 object Complex2 {
