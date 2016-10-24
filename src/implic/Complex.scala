@@ -1,4 +1,4 @@
-package `implicit`
+package implic
 
 class Complex(val real: Double, val imag: Double) {
 

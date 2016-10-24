@@ -1,4 +1,4 @@
-package `implicit`
+package implic
 
 object Example1 extends App {
 
