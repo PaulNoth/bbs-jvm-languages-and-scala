@@ -1,6 +1,6 @@
 package collection;
 
-public class Array {
+public class NonGenericJavaArray {
     public static void main(String[] args) {
         Long[] arr = new Long[] {
                 1L, 2L, 3L
