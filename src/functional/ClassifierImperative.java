@@ -2,13 +2,12 @@ package functional;
 
 import java.util.HashSet;
 import java.util.Set;
-import java.util.stream.Stream;
 
-public class Classifier {
+public class ClassifierImperative {
     private Set<Integer> factors;
     private int number;
 
-    public Classifier(int number) {
+    public ClassifierImperative(int number) {
         this.number = number;
         this.factors = new HashSet<>();
         this.factors.add(1);
@@ -58,6 +57,6 @@ public class Classifier {
     }
 
     public static boolean isPerfect(int number) {
-        return new Classifier(number).isPerfect();
+        return new ClassifierImperative(number).isPerfect();
     }
 }
